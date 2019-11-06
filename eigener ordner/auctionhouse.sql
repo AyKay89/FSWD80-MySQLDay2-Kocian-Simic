@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 06. Nov 2019 um 13:30
+-- Erstellungszeit: 06. Nov 2019 um 13:37
 -- Server-Version: 10.4.8-MariaDB
 -- PHP-Version: 7.3.11
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `auctionhouse`
 --
+CREATE DATABASE IF NOT EXISTS `auctionhouse` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `auctionhouse`;
 
 -- --------------------------------------------------------
 
